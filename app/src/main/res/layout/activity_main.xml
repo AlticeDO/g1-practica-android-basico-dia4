@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UI Controls" />
+
+        <Button
+            android:id="@+id/myTextViewButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <Button
+            android:id="@+id/myImageViewButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ImageView" />
+
+        <Button
+            android:id="@+id/myEditTextButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="EditText" />
+
+        <Button
+            android:id="@+id/myAutoCompleteTextViewButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="AutoCompleteTextView" />
+
+        <Button
+            android:id="@+id/myButtonButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/myImageButtonButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ImageButton" />
+
+        <Button
+            android:id="@+id/myCheckboxButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Checkbox" />
+
+        <Button
+            android:id="@+id/myToggleButtonButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ToggleButton" />
+
+        <Button
+            android:id="@+id/myRadioButtonButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RadioButton" />
+
+        <Button
+            android:id="@+id/myRadioGroupButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RadioGroup" />
+
+        <Button
+            android:id="@+id/myProgressbarButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ProgressBar" />
+
+        <Button
+            android:id="@+id/mySpinnerButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Spinner" />
+
+        <Button
+            android:id="@+id/myTimePickerButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TimePicker" />
+
+        <Button
+            android:id="@+id/myDatePickerButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DatePicker" />
+    </LinearLayout>
+</ScrollView>
